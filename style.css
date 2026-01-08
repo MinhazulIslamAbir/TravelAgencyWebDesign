@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#Hero {
+    background-image:url("Rangamati-Bandarban-Coxs-Ba.jpg");
+    background-size: cover;
+    height: 800px;
+    width: auto;
+    display: flex;
+    /* text-align: center; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 80px;
+    text-shadow: 0 0 3px black;
+}
+
+#Hero h1 {
+    font-size: 45px;
+    margin: 5px auto;
+}
+
+#Hero p {
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+.Explore {
+    padding: 20px 30px;
+    border: none;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+#Intro {
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.Intro-text {
+    width: 400px;
+    font-size: large;
+}
+
+.Intro-img {
+    height: 450px;
+    width: 400px;
+    background-image:url("2nd_image.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+#Attractions {
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.05);
+    margin: 80px auto;
+    padding: 40px;
+}
+
+#Attractions h1 {
+    font-size: 50px;
+}
+
+#Attractions p {
+    font-size: 20px;
+    color: gray;
+}
+
+#Site-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Site-imgs {
+    height: 400px;
+    width: 400px;
+    border: 1px solid red;
+    border-radius: 15px;
+    /* background-color: red; */
+    margin: 20px auto;
+}
+
+#Guide {
+    text-align: center;
+    padding: 20px
+}
+
+#Guide-sec {
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+#Guide-img {
+    height: 400px;
+    width: 300px;
+    background-image: url("abir.jpeg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-right: 20px;
+}
+.info {
+    text-align: start;
+    font-size:18px;
+}
+
+.heading {
+    font-size: 50px;
+    margin-bottom: 3px;
+}
+
+.subHeading {
+    font-size: 20px;
+    margin-top: 5px;
+    color: gray;
+}
+
+.paragraph {
+    height: 400px;
+    width: 400px;
+}
+
+.paragraph p{
+    text-align: start;
+    font-size: 20px;
+}
+
+#Booking {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(1, 1, 49);
+}
+
+.footer {
+    background-color: rgb(1, 1, 49);
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+#footer-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer-section h3{
+    font-size: 25px;
+}
+
+#footer-section p{
+    font-size: 20px;
+}
+
+#footer-section a{
+    font-size: 20px;
+}
+
+
+.common {
+    width: 300px;
+    text-align: start;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+#links a {
+    text-decoration: none;
+    color: gray;
+}
+
+#links a:hover {
+    text-decoration: none;
+    color: white;
+}

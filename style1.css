@@ -1,0 +1,30 @@
+body{
+    display:block;
+    margin: 20px;
+}
+
+.avatar{
+    width: 150px;
+}
+
+.wholeCard{
+    background-color: #ddebf8;
+    padding: 20px;
+    border-bottom: 10px solid #d8c3f3;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.texts{
+    margin-left: 20px;
+    text-align: center;
+    color: #2b2839;
+    font-family: verdana;
+}
+
+.nameof{
+    font-weight: bold;
+}
