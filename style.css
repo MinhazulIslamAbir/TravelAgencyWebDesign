@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family:Arial, Helvetica, sans-serif
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 #Hero {
@@ -37,6 +37,18 @@ body {
     margin: 20px auto;
 }
 
+@keyframes change {
+    to{
+        color: white;
+        background-color: black;
+    }
+}
+
+.Explore:hover {
+    animation: change 0.25s ease;
+    animation-fill-mode: forwards;
+}
+
 #Intro {
     display: flex;
     flex-direction: row;
@@ -68,11 +80,14 @@ body {
 
 #Attractions h1 {
     font-size: 50px;
+    margin-bottom: 5px;
 }
 
 #Attractions p {
+    margin: 3px 0;
     font-size: 20px;
-    color: gray;
+    /* margin-bottom: auto; */
+    color: white;
 }
 
 #Site-imgs {
@@ -82,12 +97,49 @@ body {
 }
 
 .Site-imgs {
+    display: flex;
     height: 400px;
     width: 400px;
-    border: 1px solid red;
     border-radius: 15px;
-    /* background-color: red; */
     margin: 20px auto;
+    text-align: start;
+    /* text-shadow: 0 0 4px black; */
+    align-items: end;
+}
+
+#Patenga {
+    background-image: url("Kaptai.jpg");
+    background-size: cover;
+}
+
+#Port {
+    background-image: url("Port.jpg");
+    background-size: cover;
+}
+
+#Hill {
+    background-image: url("Hill.jpg");
+    background-size: cover;
+}
+
+#Sitakunda {
+    background-image: url("Sitakunda.jpg");
+    background-size: cover;
+}
+
+.Description {
+    background-color: rgba(0, 0, 0, 0.484);
+    border-radius: 15px;
+    padding: 5px 15px 7px;
+}
+
+@keyframes grow {
+    to{transform: scale(1.05, 1.05);}
+}
+
+.Site-imgs:hover{
+    animation: grow .25s ease-out;
+    animation-fill-mode: forwards;
 }
 
 #Guide {
