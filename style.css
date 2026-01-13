@@ -34,19 +34,17 @@ body {
     border-radius: 40px;
     font-size: 15px;
     font-weight: bold;
-    margin: 20px auto;
-}
-
-@keyframes change {
-    to{
-        color: white;
-        background-color: black;
-    }
+    margin-top: 20px;
+    transition: background-color 0.5s ease;
+    /* transition: color 0.25s ease; */
 }
 
 .Explore:hover {
-    animation: change 0.25s ease;
-    animation-fill-mode: forwards;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transform: background-color 0.5s ease;
+    /* transition: color 0.25s ease; */
 }
 
 #Intro {
@@ -105,6 +103,7 @@ body {
     text-align: start;
     /* text-shadow: 0 0 4px black; */
     align-items: end;
+    transition: transform 0.25s ease;
 }
 
 #Patenga {
@@ -133,13 +132,10 @@ body {
     padding: 5px 15px 7px;
 }
 
-@keyframes grow {
-    to{transform: scale(1.05, 1.05);}
-}
-
 .Site-imgs:hover{
-    animation: grow .25s ease-out;
-    animation-fill-mode: forwards;
+    transform: scale(1.05, 1.05);
+    transition: transform 0.25s ease;
+    cursor: pointer;
 }
 
 #Guide {
